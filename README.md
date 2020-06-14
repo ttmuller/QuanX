@@ -1,2 +1,1 @@
-# QuanX
-Private Script
+Removed, 88
