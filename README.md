@@ -1,6 +1,6 @@
 # Quan-X
 
-Crypto Price Alert(Crypto價格定時提醒)
+## Crypto Price Alert(Crypto價格定時提醒)
 ##### 如需報更多幣種，請自行修改js文件
 ```properties
 [task_local]
