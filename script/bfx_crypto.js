@@ -13,8 +13,7 @@ $task
     var info = [
       `BTC：${data[0][7]}｜LTC：${data[1][7]}`,
       `\nETH：${data[3][7]}｜IOTA：${data[18][7]}`,
-      `\nUSDT：${data[204][7]}`,
-      ""
+      `\nUSDT：${data[204][7]}`
     ];
   
   var logo = {"media-url" : "https://github.com/ttmuller/QuanX/raw/rm/photo/bfx_logo.png"};
