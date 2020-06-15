@@ -16,11 +16,14 @@ $task
       `\nUSDT：${data[204][7]}`,
       ""
     ];
+  
+  var logo = {"media-url" : "https://github.com/ttmuller/QuanX/raw/rm/photo/bfx_logo.png"};
 
     $notify(
       "Bitfinex定時報價(USD pair)",
       "",
-      `${info}`
+      info,
+      logo
     )
   })
   .then(() => $done());
