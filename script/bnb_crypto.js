@@ -14,11 +14,14 @@ $task
       `BTC：${data[11].price}｜LTC：${data[190].price}`,
       `\nETH：${data[12].price}｜IOTA：${data[336].price}`
     ];
+  
+    var logo = {"media-url" : "https://github.com/ttmuller/QuanX/raw/rm/photo/bnb_logo.jpg"};
 
     $notify(
       "Binance定時報價(USDT pair)",
       "",
-      `${info}`
+      info,
+      logo
     )
   })
   .then(() => $done());
